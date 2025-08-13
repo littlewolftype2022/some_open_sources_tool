@@ -1,12 +1,110 @@
 pytesseract 只是一个 Python 封装，它本身不包含 OCR 引擎，所以必须另外安装 Tesseract OCR：
-
 Windows
 去下载 Tesseract OCR 安装包（推荐 UB-Mannheim 维护的版本，带中文语言包）：
 https://github.com/UB-Mannheim/tesseract/wiki,安装时勾选 Chinese (Simplified)（chi_sim）语言包
 安装完成后，把 tesseract.exe 所在路径加到 系统环境变量 Path 里,一般是：
 C:\Program Files\Tesseract-OCR
 验证安装：tesseract --version
-
 Linux / Mac
 sudo apt install tesseract-ocr tesseract-ocr-chi-sim  # Ubuntu/Debian
 brew install tesseract                               # macOS
+
+
+pytesseract is only a Python wrapper and does not include the OCR engine itself, so you must install Tesseract OCR separately:
+Windows
+Download the Tesseract OCR installer (recommended: the UB-Mannheim build with Chinese language support):
+https://github.com/UB-Mannheim/tesseract/wiki
+When installing, check Chinese (Simplified) (chi_sim) language pack.
+After installation, add the path to tesseract.exe to your system environment variable Path, usually:
+C:\Program Files\Tesseract-OCR
+Verify installation:
+tesseract --version
+Linux / Mac
+sudo apt install tesseract-ocr tesseract-ocr-chi-sim  # Ubuntu/Debian
+brew install tesseract                               # macOS
+
+
+pytesseract — это только оболочка на Python и не содержит сам OCR-движок, поэтому необходимо отдельно установить Tesseract OCR:
+Windows
+Загрузите установщик Tesseract OCR (рекомендуется сборка UB-Mannheim с поддержкой китайского языка):
+https://github.com/UB-Mannheim/tesseract/wiki
+При установке выберите пакет языка Chinese (Simplified) (chi_sim).
+После установки добавьте путь к tesseract.exe в системную переменную окружения Path, обычно:
+C:\Program Files\Tesseract-OCR
+Проверьте установку:
+tesseract --version
+Linux / Mac
+sudo apt install tesseract-ocr tesseract-ocr-chi-sim  # Ubuntu/Debian
+brew install tesseract                               # macOS
+
+
+3. Japanese（日本語）
+
+pytesseract は Python のラッパーにすぎず、OCR エンジン本体は含まれていません。そのため、別途 Tesseract OCR をインストールする必要があります。
+
+Windows
+Tesseract OCR のインストーラーをダウンロードします（推奨：UB-Mannheim 版、中国語サポート付き）：
+https://github.com/UB-Mannheim/tesseract/wiki
+インストール時に Chinese (Simplified) (chi_sim) 言語パックを選択します。
+インストール後、tesseract.exe のパスをシステム環境変数 Path に追加します。通常は：
+C:\Program Files\Tesseract-OCR
+インストール確認：
+
+bash
+复制
+编辑
+tesseract --version
+Linux / Mac
+
+bash
+复制
+编辑
+sudo apt install tesseract-ocr tesseract-ocr-chi-sim  # Ubuntu/Debian
+brew install tesseract                               # macOS
+4. French（Français）
+
+pytesseract n’est qu’un wrapper Python et n’inclut pas le moteur OCR lui-même ; vous devez donc installer Tesseract OCR séparément :
+
+Windows
+Téléchargez l’installateur de Tesseract OCR (recommandé : version UB-Mannheim avec prise en charge du chinois) :
+https://github.com/UB-Mannheim/tesseract/wiki
+Lors de l’installation, cochez le pack linguistique Chinese (Simplified) (chi_sim).
+Après l’installation, ajoutez le chemin vers tesseract.exe dans la variable d’environnement Path, en général :
+C:\Program Files\Tesseract-OCR
+Vérifiez l’installation :
+
+bash
+复制
+编辑
+tesseract --version
+Linux / Mac
+
+bash
+复制
+编辑
+sudo apt install tesseract-ocr tesseract-ocr-chi-sim  # Ubuntu/Debian
+brew install tesseract                               # macOS
+5. German（Deutsch）
+
+pytesseract ist nur ein Python-Wrapper und enthält nicht die eigentliche OCR-Engine. Sie müssen Tesseract OCR daher separat installieren:
+
+Windows
+Laden Sie das Tesseract OCR-Installationsprogramm herunter (empfohlen: UB-Mannheim-Version mit chinesischer Sprachunterstützung):
+https://github.com/UB-Mannheim/tesseract/wiki
+Wählen Sie während der Installation das Sprachpaket Chinese (Simplified) (chi_sim) aus.
+Fügen Sie nach der Installation den Pfad zu tesseract.exe zur Systemumgebungsvariable Path hinzu, normalerweise:
+C:\Program Files\Tesseract-OCR
+Installation überprüfen:
+
+bash
+复制
+编辑
+tesseract --version
+Linux / Mac
+
+bash
+复制
+编辑
+sudo apt install tesseract-ocr tesseract-ocr-chi-sim  # Ubuntu/Debian
+brew install tesseract                               # macOS
+I copy from chatgpt.Haha~
