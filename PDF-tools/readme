@@ -1,0 +1,12 @@
+pytesseract 只是一个 Python 封装，它本身不包含 OCR 引擎，所以必须另外安装 Tesseract OCR：
+
+Windows
+去下载 Tesseract OCR 安装包（推荐 UB-Mannheim 维护的版本，带中文语言包）：
+https://github.com/UB-Mannheim/tesseract/wiki,安装时勾选 Chinese (Simplified)（chi_sim）语言包
+安装完成后，把 tesseract.exe 所在路径加到 系统环境变量 Path 里,一般是：
+C:\Program Files\Tesseract-OCR
+验证安装：tesseract --version
+
+Linux / Mac
+sudo apt install tesseract-ocr tesseract-ocr-chi-sim  # Ubuntu/Debian
+brew install tesseract                               # macOS
